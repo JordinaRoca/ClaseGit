@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Formulario HTML</h1>
+
+<form action="/desti.html" method="post">
+    <label for="nom">Nom:</label>
+<input 
+  id="nom" 
+  name="nom"
+  placeholder="El teu nom aquí" />
+<br>
+<br>
+  <label for="start">Data d'inici:</label>
+
+  <input type="date" id="start" name="trip-start"
+         value="2022-09-22"
+         min="2018-01-01" max="2018-12-31">
+<br>
+<br>
+    <label for="Edat">Edat</label>
+    <input type="text" id="nom" name="nom" /> 
+    <br>
+    <br>
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" />
+  </form>
+<br>
+<br>
+  <label>Perquè vols aprendre a programar?</label>
+<input type="radio" name="tipus" 
+  value="carrer" checked> Per diversió
+<input type="radio" name="tipus" 
+  value="passeig"> Per necessitat
+<input type="radio" name="tipus" 
+  value="avinguda"> Com a repte personal
+  <input type="radio" name="tipus" 
+  value="camí"> Altres
+<br>
+<br>
+<label>Quin és el teu nivell d'experiència?</label>
+<input type="checkbox" name="tipus" 
+  value="carrer" checked> Més aviat alt
+<input type="checkbox" name="tipus" 
+  value="passeig"> Més aviat baix
+  <br>
+  <br>
+  <label>El teu nivell d'HTML:</label>
+<select name="Nivell HTML">
+  <option value="basic">Basic</option>
+  <option value="advanced">Advanced</option>
+  <option value="Expert">Expert</option>
+</select>
+<br>
+<br>
+<label for="msg">Dubtes:</label>
+<textarea id="msg" name="msg"></textarea>
+<br>
+<br>
+<input type="submit">
+</body>
+</html>
